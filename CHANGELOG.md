@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (not yet released)
+
+* BC break: adjustments to changes in DependencyInjection component for Symfony 2.3 (follow `UPGRADE-1.2.md` to upgrade)
+
 ## 1.1.2 (2013-04-17)
 
 * always dispatch `PreBindEvent` when `bind()` is called (to match expected behavior)
